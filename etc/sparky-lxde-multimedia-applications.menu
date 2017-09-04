@@ -1,0 +1,600 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+	<Name>Applications</Name>
+	<Directory>lxde-menu-applications.directory</Directory>
+
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
+
+    <!-- Audio -->
+    <Menu>
+	<Name>Audio</Name>
+	<Directory>sparky-audio.directory</Directory>
+
+	<!-- Connection -->
+	<Menu>
+		<Name>Connection</Name>
+		<Directory>sparky-audio-connection.directory</Directory>
+		<Include>
+		    <Filename>aconnectgui.desktop</Filename>
+		    <Filename>jackeq.desktop</Filename>
+		    <Filename>patchage.desktop</Filename>
+		    <Filename>gjackclock.desktop</Filename>
+		    <Filename>gjacktransport.desktop</Filename>
+		    <Filename>qjackctl.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Connection -->
+
+	<!-- Effects -->
+	<Menu>
+		<Name>Effects</Name>
+		<Directory>sparky-audio-effects.directory</Directory>
+		<Include>
+			<Filename>calf.desktop</Filename>
+			<Filename>creox.desktop</Filename>
+			<Filename>freqtweak.desktop</Filename>
+			<Filename>guitarix.desktop</Filename>
+			<Filename>Jc_Gui.desktop</Filename>
+			<Filename>jack-rack.desktop</Filename>
+			<Filename>jamin.desktop</Filename>
+			<Filename>lv2rack.desktop</Filename>
+			<Filename>projectM-jack.desktop</Filename>
+			<Filename>projectM-pulseaudio.desktop</Filename>
+			<Filename>rakarrack.desktop</Filename>
+			<Filename>zita-at1.desktop</Filename>
+			<Filename>zita-bls1.desktop</Filename>
+			<Filename>zita-mu1.desktop</Filename>
+			<Filename>zita-rev1.desktop</Filename>
+			<Filename>zynjacku.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Effects -->
+
+	<!-- Metronome -->
+	<Menu>
+		<Name>Metronome</Name>
+		<Directory>sparky-audio-metronome.directory</Directory>
+		<Include>
+			<Filename>gtklick.desktop</Filename>
+			<Filename>gtick.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Metronome -->
+
+	<!-- Midi tools -->
+	<Menu>
+		<Name>Midi Tools</Name>
+		<Directory>sparky-midi-tools.directory</Directory>
+		<Include>
+			<Filename>arpage.desktop</Filename>
+			<Filename>dd11-2-gmidi.desktop</Filename>
+			<Filename>dd11-split.desktop</Filename>
+			<Filename>gmidimonitor-alsa.desktop</Filename>
+			<Filename>gmidimonitor-jack.desktop</Filename>
+			<Filename>jack-keyboard.desktop</Filename>
+			<Filename>mcpdisp.desktop</Filename>
+			<Filename>petri-foo.desktop</Filename>
+			<Filename>qmidiarp.desktop</Filename>
+			<Filename>qmidinet.desktop</Filename>
+			<Filename>qmidiroute.desktop</Filename>
+			<Filename>vkeybd.desktop</Filename>
+			<Filename>vmpk.desktop</Filename>
+			<Filename>specimen.desktop</Filename>
+			<Filename>swami.desktop</Filename>
+			<Filename>zonage.desktop</Filename>		
+		</Include>
+	</Menu>  <!-- End Midi tools -->
+
+	<!-- Mixers -->
+	<Menu>
+		<Name>Mixers</Name>
+		<Directory>sparky-audio-mixers.directory</Directory>
+		<Include>
+			<Filename>alsamixergui.desktop</Filename>
+			<Filename>aumix-gtk.desktop</Filename>
+			<Filename>echomixer.desktop</Filename>
+			<Filename>envy24_control.desktop</Filename>
+			<Filename>ffado.org-ffadomixer.desktop</Filename>
+			<Filename>gmerlin-alsamixer.desktop</Filename>
+			<Filename>gnome-alsamixer.desktop</Filename>
+			<Filename>hdajackretask.desktop</Filename>
+			<Filename>hdspconf.desktop</Filename>
+			<Filename>hdspmixer.desktop</Filename>
+			<Filename>jack_mixer.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>kde4-kmix.desktop</Filename>
+			<Filename>mudita24.desktop</Filename>
+			<Filename>pavucontrol.desktop</Filename>
+			<Filename>rmedigicontrol.desktop</Filename>
+			<Filename>qamix.desktop</Filename>
+			<Filename>qasconfig.desktop</Filename>
+			<Filename>qashctl.desktop</Filename>
+			<Filename>qasmixer.desktop</Filename>
+			<Filename>xfce4-mixer.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Mixers -->
+
+	<!-- Players -->
+	<Menu>
+		<Name>Players</Name>
+		<Directory>sparky-audio-players.directory</Directory>
+		<Include>
+		    <Filename>alsaplayer.desktop</Filename>
+		    <Filename>amarok.desktop</Filename>
+		    <Filename>ario.desktop</Filename>
+		    <Filename>audacious.desktop</Filename>
+		    <Filename>audacious2.desktop</Filename>
+		    <Filename>banshee.desktop</Filename>
+		    <Filename>clementine.desktop</Filename>
+		    <Filename>deadbeef.desktop</Filename>
+		    <Filename>djplay.desktop</Filename>
+		    <Filename>exaile.desktop</Filename>
+		    <Filename>gmusicbrowser.desktop</Filename>
+		    <Filename>juk.desktop</Filename>
+		    <Filename>lxmusic.desktop</Filename>
+		    <Filename>moc.desktop</Filename>
+		    <Filename>nightingale.desktop</Filename>
+		    <Filename>qmmp.desktop</Filename>
+		    <Filename>radiotray.desktop</Filename>
+		    <Filename>rythmbox.desktop</Filename>
+		    <Filename>sonata.desktop</Filename>
+		</Include>
+	 </Menu> <!-- End Players -->
+
+	<!-- Plugins -->
+	<Menu>
+		<Name>Plugins</Name>
+		<Directory>sparky-audio-plugins.directory</Directory>
+		<Include>
+                  <Filename>euphoria.desktop</Filename>
+                  <Filename>lms_comb.desktop</Filename>
+                  <Filename>lms_delay.desktop</Filename>
+                  <Filename>lms_distortion.desktop</Filename>
+                  <Filename>lms_eq5.desktop</Filename>
+                  <Filename>lms_filter.desktop</Filename>
+                  <Filename>rayv.desktop</Filename>
+			<And>
+				<Category>Plugins</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Plugins -->
+
+	<!-- Sequencing -->
+	<Menu>
+		<Name>Sequencing</Name>
+		<Directory>sparky-audio-sequencing.directory</Directory>
+		<Include>
+			<Filename>cheesetracker.desktop</Filename>
+			<Filename>composite.desktop</Filename>
+			<Filename>freewheeling.desktop</Filename>
+			<Filename>hydrogen.desktop</Filename>
+			<Filename>kluppe.desktop</Filename>
+			<Filename>lmms.desktop</Filename>
+			<Filename>milkytracker.desktop</Filename>
+			<Filename>muse.desktop</Filename>
+			<Filename>qmidiarp.desktop</Filename>
+			<Filename>qtractor.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
+			<Filename>seq24.desktop</Filename>
+			<Filename>sooperlooper.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Sequencing -->
+
+	<!-- SoftSynths -->
+	<Menu>
+		<Name>SoftSynths</Name>
+		<Directory>sparky-audio-softsynths.directory</Directory>
+		<Include>
+			<Filename>aeolus.desktop</Filename>
+			<Filename>ams.desktop</Filename>
+			<Filename>amsynth.desktop</Filename>
+			<Filename>Annotator.desktop</Filename>
+			<Filename>cecilia.desktop</Filename>
+			<Filename>foo-yc20.desktop</Filename>
+			<Filename>drumkv1.desktop</Filename>
+			<Filename>galan.desktop</Filename>
+			<Filename>genpo.desktop</Filename>
+			<Filename>ghostess.desktop</Filename>
+			<Filename>gmorgan.desktop</Filename>
+			<Filename>hexter.desktop</Filename>
+			<Filename>horgand.desktop</Filename>
+			<Filename>lv2rack.desktop</Filename>
+			<Filename>monobristol.desktop</Filename>
+			<Filename>nekobee.desktop</Filename>
+			<Filename>NetworkEditor.desktop</Filename>
+			<Filename>phasex.desktop</Filename>
+			<Filename>Prototyper.desktop</Filename>
+			<Filename>puredata.desktop</Filename>
+			<Filename>qsynth.desktop</Filename>
+			<Filename>samplv1.desktop</Filename>
+			<Filename>sineshaper.desktop</Filename>
+			<Filename>specimen.desktop</Filename>
+			<Filename>synthv1.desktop</Filename>
+			<Filename>yoshimi.desktop</Filename>
+			<Filename>zynaddsubfx.desktop</Filename>
+			<Filename>zynjacku.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End SoftSynths -->
+
+	<!-- Tools -->
+	<Menu>
+		<Name>Tools</Name>
+		<Directory>sparky-audio-tools.directory</Directory>
+		<Include>
+			<Filename>AcetonISO.desktop</Filename>
+			<Filename>ardour.desktop</Filename>
+			<Filename>audacity.desktop</Filename>
+			<Filename>bitmeter.desktop</Filename>
+			<Filename>canorus.desktop</Filename>
+			<Filename>easymp3gain-gnome.desktop</Filename>
+			<Filename>extace.desktop</Filename>
+			<Filename>darksnow.desktop</Filename>
+			<Filename>denemo.desktop</Filename>
+			<Filename>freecycle.desktop</Filename>
+			<Filename>gcdmaster.desktop</Filename>
+			<Filename>gladish.desktop</Filename>
+			<Filename>gmerlin-recorder.desktop</Filename>
+			<Filename>gnusound.desktop</Filename>
+			<Filename>goobox.desktop</Filename>
+			<Filename>gtkpod.desktop</Filename>
+			<Filename>gwc.desktop</Filename>
+			<Filename>idjc.desktop</Filename>
+			<Filename>jaaa.desktop</Filename>
+			<Filename>jaaa-alsa.desktop</Filename>
+			<Filename>jaaa-jack.desktop</Filename>
+			<Filename>japa.desktop</Filename>
+			<Filename>japa-alsa.desktop</Filename>
+			<Filename>japa-jack.desktop</Filename>
+			<Filename>japaj.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>jkmeter.desktop</Filename>
+			<Filename>jmeter.desktop</Filename>
+			<Filename>jnoisemeter.desktop</Filename>
+			<Filename>kde4-frescobaldi.desktop</Filename>
+			<Filename>kguitar.desktop</Filename>
+			<Filename>ladi-player.desktop</Filename>
+			<Filename>laditray.desktop</Filename>
+       			<Filename>ladi-system-tray.desktop</Filename>
+			<Filename>meterbridge.desktop</Filename>
+			<Filename>mhwaveedit.desktop</Filename>
+			<Filename>mixxx.desktop</Filename>
+			<Filename>mp3splt-gtk.desktop</Filename>
+			<Filename>mscore.desktop</Filename>
+			<Filename>noteedit.desktop</Filename>
+			<Filename>nted.desktop</Filename>
+			<Filename>qjackrcd.desktop</Filename>
+			<Filename>rezound.desktop</Filename>
+			<Filename>ripperx.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
+			<Filename>snd.desktop</Filename>
+			<Filename>snd-gtk-jack.desktop</Filename>
+			<Filename>songwrite.desktop</Filename>
+			<Filename>soundconverter.desktop</Filename>
+			<Filename>sound-juicer.desktop</Filename>
+			<Filename>sweep.desktop</Filename>
+			<Filename>tagtool.desktop</Filename>
+			<Filename>tetraproc.desktop</Filename>
+			<Filename>timemachine.desktop</Filename>
+			<Filename>tuxguitar.desktop</Filename>
+			<Filename>wavbreaker.desktop</Filename>
+			<Filename>wavesurfer.desktop</Filename>			
+		</Include>
+	</Menu>	 <!-- End Tools -->
+
+	<!-- Tuners -->
+	<Menu>
+		<Name>Tuners</Name>
+		<Directory>sparky-audio-tuners.directory</Directory>
+		<Include>
+			<Filename>lingot.desktop</Filename>
+			<Filename>fmit.desktop</Filename>
+			<Filename>gxtuner.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Tuners -->
+
+	<!-- VST -->
+	<Menu>
+		<Name>VST</Name>
+		<Directory>sparky-vst.directory</Directory>
+		<Include>
+			<And>
+				<Category>VST</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End VST -->
+    </Menu>	 <!-- End Audio -->
+
+	<!-- Debian menu -->
+	<!-- <Menu>
+		<Name>Debian</Name>
+		<Directory>lxde-debian.directory</Directory>
+		<MergeFile>debian-menu.menu</MergeFile>
+	</Menu> -->
+
+	<!-- Accessories submenu -->
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>lxde-utility.directory</Directory>
+		<Include>
+			<And>
+				<Category>Utility</Category>
+	<!-- Accessibility spec must have either the Utility or Settings
+			 category, and we display an accessibility submenu already for
+			 the ones that do not have Settings, so don't display accessibility
+			 applications here -->
+				<Not><Category>Accessibility</Category></Not>
+				<Not><Category>System</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Accessories -->
+
+	<!-- Accessibility submenu -->
+	<Menu>
+		<Name>Universal Access</Name>
+		<Directory>lxde-utility-accessibility.directory</Directory>
+		<Include>
+			<And>
+				<Category>Accessibility</Category>
+				<Not><Category>Settings</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Accessibility -->
+
+	<!-- Development Tools -->
+	<Menu>
+		<Name>Development</Name>
+		<Directory>lxde-development.directory</Directory>
+		<Include>
+			<And>
+				<Category>Development</Category>
+			</And>
+			<Filename>emacs.desktop</Filename>
+		</Include>
+	</Menu> <!-- End Development Tools -->
+
+	<!-- Education -->
+	<Menu>
+		<Name>Education</Name>
+		<Directory>lxde-education.directory</Directory>
+		<Include>
+			<And>
+				<Category>Education</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Education -->
+
+	<!-- Games -->
+	<Menu>
+		<Name>Games</Name>
+		<Directory>lxde-game.directory</Directory>
+		<Include>
+			<And>
+				<Category>Game</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Games -->
+
+	<!-- Graphics -->
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>lxde-graphics.directory</Directory>
+		<Include>
+			<And>
+				<Category>Graphics</Category>
+				<Not><Category>Utility</Category></Not>
+			</And>
+		</Include>
+	</Menu> <!-- End Graphics -->
+
+	<!-- Internet -->
+	<Menu>
+		<Name>Internet</Name>
+		<Directory>lxde-network.directory</Directory>
+		<Include>
+			<And>
+				<Category>Network</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Internet -->
+
+	<!-- Multimedia -->
+	<!-- <Menu>
+		<Name>Multimedia</Name>
+		<Directory>lxde-audio-video.directory</Directory>
+		<Include>
+			<And>
+				<Category>AudioVideo</Category>
+			</And>
+		</Include>
+	</Menu>	--> <!-- End Multimedia -->
+
+	<!-- Office -->
+	<Menu>
+		<Name>Office</Name>
+		<Directory>lxde-office.directory</Directory>
+		<Include>
+			<And>
+				<Category>Office</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Office -->
+
+	<!-- System Tools-->
+	<Menu>
+		<Name>System</Name>
+		<Directory>lxde-system-tools.directory</Directory>
+		<Include>
+			<And>
+				<Category>System</Category>
+				<Not><Category>Settings</Category></Not>
+				<Not><Category>PackageManager</Category></Not>
+			</And>
+		</Include>
+	</Menu>	 <!-- End System Tools -->
+
+    <!-- Video -->
+    <Menu>
+	<Name>Video</Name>
+	<Directory>sparky-video.directory</Directory>
+
+	<!-- Camerass-->
+	<Menu>
+		<Name>Cameras</Name>
+		<Directory>sparky-cameras.directory</Directory>
+		<Include>
+			<Filename>camorama.desktop</Filename>
+                  	<Filename>cheese.desktop</Filename>
+			<Filename>gtkam.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Cameras -->
+
+	<!-- Video Players -->
+	<Menu>
+		<Name>Players</Name>
+		<Directory>sparky-video-players.directory</Directory>
+		<Include>
+			<Filename>org.kde.dragonplayer.desktop</Filename>
+			<Filename>freevo.desktop</Filename>
+			<Filename>gmerlin-player.desktop</Filename>
+			<Filename>gnome-mplayer.desktop</Filename>
+			<Filename>gxine.desktop</Filename>
+			<Filename>kaffeine.desktop</Filename>
+			<Filename>kmplayer.desktop</Filename>
+			<Filename>kodi.desktop</Filename>
+			<Filename>me-tv.desktop</Filename>
+			<Filename>minitube.desktop</Filename>
+			<Filename>miro.desktop</Filename>
+			<Filename>parole.desktop</Filename>
+			<Filename>smplayer.desktop</Filename>
+			<Filename>smplayer2.desktop</Filename>
+			<Filename>totem.desktop</Filename>
+			<Filename>tunapie.desktop</Filename>
+			<Filename>net-tvtime.desktop</Filename>
+                  	<Filename>vlc.desktop</Filename>
+			<Filename>xine.desktop</Filename>
+			<Filename>smtube.desktop</Filename>
+			<Filename>xjadeo.desktop</Filename>
+			<Filename>zapping.desktop</Filename>
+		</Include>
+        </Menu>	 <!-- End Video Players -->
+
+	<!-- Recorders-->
+	<Menu>
+		<Name>Recording CD/DVD</Name>
+		<Directory>sparky-recorders.directory</Directory>
+		<Include>
+			<Filename>brasero.desktop</Filename>
+			<Filename>k3b.desktop</Filename>
+			<Filename>simpleburn.desktop</Filename>
+			<Filename>xfburn.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Recorders -->
+
+	<!-- Video Tools -->
+	<Menu>
+		<Name>Tools</Name>
+		<Directory>sparky-video-tools.directory</Directory>
+		<Include>
+			<Filename>avidemux-qt.desktop</Filename>
+			<Filename>avidemux_jobs.desktop</Filename>
+			<Filename>blender.desktop</Filename>
+                  	<Filename>blender-fullscreen.desktop</Filename>
+                 	<Filename>blender-windowed.desktop</Filename>
+                  	<Filename>bombono-dvd.desktop</Filename>
+                  	<Filename>cinelerra.desktop</Filename>
+                 	<Filename>devede_ng.desktop</Filename>
+			<Filename>dvd95.desktop</Filename>
+			<Filename>dvdisaster.desktop</Filename>
+			<Filename>dvgrab.desktop</Filename>
+			<Filename>dvdrip.desktop</Filename>
+			<Filename>dvdstyler.desktop</Filename>
+                 	<Filename>ekd.desktop</Filename>
+			<Filename>flowblade.desktop</Filename>
+                 	<Filename>gtk-recordmydesktop.desktop</Filename>
+                  	<Filename>ghb.desktop</Filename>
+                  	<Filename>guvcview.desktop</Filename>
+			<Filename>imagination.desktop</Filename>
+			<Filename>instanbul.desktop</Filename>
+                  	<Filename>Kino.desktop</Filename>
+                  	<Filename>kdenlive.desktop</Filename>
+			<Filename>org.kde.kdenlive.desktop</Filename>
+                  	<Filename>LiVES.desktop</Filename>
+			<Filename>luvcview.desktop</Filename>
+			<Filename>ogmrip.desktop</Filename>
+                  	<Filename>openshot.desktop</Filename>
+                  	<Filename>pitivi.desktop</Filename>
+			<Filename>screencapjack.desktop</Filename>
+			<Filename>sparky-codecs.desktop</Filename>
+			<Filename>stopmotion.desktop</Filename>
+			<Filename>transmageddon.desktop</Filename>
+			<Filename>videocut.desktop</Filename>
+                  	<Filename>winff.desktop</Filename>
+                  	<Filename>xjadeo.desktop</Filename>
+                  	<Filename>xvidcap.desktop</Filename>
+		  	<And>
+				<Category>VideoEditing</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Video Tools -->
+
+	<!-- Subtitle tools-->
+	<Menu>
+		<Name>Subtitle</Name>
+		<Directory>sparky-subtitle-tools.directory</Directory>
+		<Include>
+			<Filename>aegisub.desktop</Filename>
+			<Filename>gaupol.desktop</Filename>
+			<Filename>qnapi.desktop</Filename>
+			<Filename>gnome-subtitles.desktop</Filename>
+			<Filename>subdownloader.desktop</Filename>
+			<Filename>subtitlecomposer.desktop</Filename>
+			<Filename>subtitleeditor.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Subtitle tools -->
+    </Menu>  <!-- End Video -->
+
+	<!-- Other -->
+	<Menu>
+		<Name>Other</Name>
+		<Directory>lxde-other.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<And>
+				<Not><Category>Core</Category></Not>
+				<Not><Category>Settings</Category></Not>
+				<Not><Category>Screensaver</Category></Not>
+			</And>
+		</Include>
+		</Menu> <!-- End Other -->
+
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Directory>lxde-settings.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<Or>
+				<Category>Settings</Category>
+				<Category>PackageManager</Category>
+				<Category>System</Category>
+			</Or>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+
+	</Menu> <!-- End Settings -->
+
+	<Layout>
+		<Merge type="files"/>
+		<Merge type="menus"/>
+		<Separator/>
+		<Menuname>DesktopSettings</Menuname>
+	</Layout>
+
+</Menu> <!-- End Applications -->
