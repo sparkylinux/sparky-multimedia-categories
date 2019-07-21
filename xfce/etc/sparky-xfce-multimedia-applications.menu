@@ -1,0 +1,680 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<!-- Last update 2019/07/20 by pavroo -->
+<Menu>
+    <Name>Xfce</Name>
+
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <DefaultMergeDirs/>
+
+    <Include>
+        <Category>X-Xfce-Toplevel</Category>
+    </Include>
+
+    <Layout>
+        <Filename>xfce4-run.desktop</Filename>
+        <Separator/>
+        <Filename>exo-terminal-emulator.desktop</Filename>
+        <Filename>exo-file-manager.desktop</Filename>
+        <Filename>exo-mail-reader.desktop</Filename>
+        <Filename>exo-web-browser.desktop</Filename>
+        <Separator/>
+        <Menuname>Settings</Menuname>
+        <Separator/>
+        <Merge type="all"/>
+        <Separator/>
+        <Filename>xfce4-about.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>
+    </Layout>
+
+    <Menu>
+        <Name>Settings</Name>
+        <Directory>xfce-settings.directory</Directory>
+        <Include>
+            <Category>Settings</Category>
+        </Include>
+
+        <Layout>
+            <Filename>xfce-settings-manager.desktop</Filename>
+            <Separator/>
+            <Merge type="all"/>
+        </Layout>
+
+        <Menu>
+            <Name>Screensavers</Name>
+            <Directory>xfce-screensavers.directory</Directory>
+            <Include>
+                <Category>Screensaver</Category>
+            </Include>
+        </Menu>
+    </Menu>
+
+    <Menu>
+        <Name>Accessories</Name>
+        <Directory>xfce-accessories.directory</Directory>
+        <Include>
+            <Or>
+                <Category>Accessibility</Category>
+                <Category>Core</Category>
+                <Category>Legacy</Category>
+                <Category>Utility</Category>
+            </Or>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>exo-file-manager.desktop</Filename>
+                <Filename>exo-terminal-emulator.desktop</Filename>
+                <Filename>xfce4-about.desktop</Filename>
+                <Filename>xfce4-run.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+
+    <Menu>
+        <Name>Development</Name>
+        <Directory>xfce-development.directory</Directory>
+        <Include>
+            <Category>Development</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Education</Name>
+        <Directory>xfce-education.directory</Directory>
+        <Include>
+            <Category>Education</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Games</Name>
+        <Directory>xfce-games.directory</Directory>
+        <Include>
+            <Category>Game</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>Graphics</Name>
+        <Directory>xfce-graphics.directory</Directory>
+        <Include>
+            <Category>Graphics</Category>
+        </Include>
+    </Menu>
+
+    <!-- <Menu>
+        <Name>Multimedia</Name>
+        <Directory>xfce-multimedia.directory</Directory>
+        <Include>
+            <Category>Audio</Category>
+            <Category>Video</Category>
+            <Category>AudioVideo</Category>
+        </Include>
+    </Menu> -->
+
+   <!-- Audio -->
+      <Menu>
+	<Name>Audio</Name>
+	<Directory>sparky-xfce-audio.directory</Directory>
+
+	<!-- Connection -->
+	<Menu>
+		<Name>Connection</Name>
+		<Directory>sparky-xfce-audio-connection.directory</Directory>
+		<Include>
+		    <Filename>aconnectgui.desktop</Filename>
+		    <Filename>jackeq.desktop</Filename>
+		    <Filename>patchage.desktop</Filename>
+		    <Filename>gjackclock.desktop</Filename>
+		    <Filename>gjacktransport.desktop</Filename>
+		    <Filename>qjackctl.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Connection -->
+
+	<!-- Effects -->
+	<Menu>
+		<Name>Effects</Name>
+		<Directory>sparky-xfce-audio-effects.directory</Directory>
+		<Include>
+			<Filename>calf.desktop</Filename>
+			<Filename>creox.desktop</Filename>
+			<Filename>freqtweak.desktop</Filename>
+			<Filename>guitarix.desktop</Filename>
+			<Filename>Jc_Gui.desktop</Filename>
+			<Filename>jack-rack.desktop</Filename>
+			<Filename>jamin.desktop</Filename>
+			<Filename>lv2rack.desktop</Filename>
+			<Filename>projectM-jack.desktop</Filename>
+			<Filename>projectM-pulseaudio.desktop</Filename>
+			<Filename>rakarrack.desktop</Filename>
+			<Filename>zita-at1.desktop</Filename>
+			<Filename>zita-bls1.desktop</Filename>
+			<Filename>zita-mu1.desktop</Filename>
+			<Filename>zita-rev1.desktop</Filename>
+			<Filename>zynjacku.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Effects -->
+
+	<!-- Metronome -->
+	<Menu>
+		<Name>Metronome</Name>
+		<Directory>sparky-xfce-audio-metronome.directory</Directory>
+		<Include>
+			<Filename>gtklick.desktop</Filename>
+			<Filename>gtick.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Metronome -->
+
+	<!-- Midi tools -->
+	<Menu>
+		<Name>Midi Tools</Name>
+		<Directory>sparky-xfce-midi-tools.directory</Directory>
+		<Include>
+			<Filename>arpage.desktop</Filename>
+			<Filename>dd11-2-gmidi.desktop</Filename>
+			<Filename>dd11-split.desktop</Filename>
+			<Filename>gmidimonitor-alsa.desktop</Filename>
+			<Filename>gmidimonitor-jack.desktop</Filename>
+			<Filename>jack-keyboard.desktop</Filename>
+			<Filename>mcpdisp.desktop</Filename>
+			<Filename>petri-foo.desktop</Filename>
+			<Filename>qmidiarp.desktop</Filename>
+			<Filename>qmidinet.desktop</Filename>
+			<Filename>qmidiroute.desktop</Filename>
+			<Filename>vkeybd.desktop</Filename>
+			<Filename>vmpk.desktop</Filename>
+			<Filename>specimen.desktop</Filename>
+			<Filename>gnome-specimen.desktop</Filename>
+			<Filename>swami.desktop</Filename>
+			<Filename>zonage.desktop</Filename>		
+		</Include>
+	</Menu>  <!-- End Midi tools -->
+
+	<!-- Mixers -->
+	<Menu>
+		<Name>Mixers</Name>
+		<Directory>sparky-xfce-audio-mixers.directory</Directory>
+		<Include>
+			<Filename>alsamixergui.desktop</Filename>
+			<Filename>aumix-gtk.desktop</Filename>
+			<Filename>echomixer.desktop</Filename>
+			<Filename>emixer.desktop</Filename>
+			<Filename>envy24_control.desktop</Filename>
+			<Filename>ffado.org-ffadomixer.desktop</Filename>
+			<Filename>gmerlin-alsamixer.desktop</Filename>
+			<Filename>gnome-alsamixer.desktop</Filename>
+			<Filename>hdajackretask.desktop</Filename>
+			<Filename>hdspconf.desktop</Filename>
+			<Filename>hdspmixer.desktop</Filename>
+			<Filename>jack_mixer.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>kde4-kmix.desktop</Filename>
+			<Filename>org.kde.kmix.desktop</Filename>
+			<Filename>mudita24.desktop</Filename>
+			<Filename>pavucontrol.desktop</Filename>
+			<Filename>pavumeter.desktop</Filename>
+			<Filename>pavumeter-record.desktop</Filename>
+			<Filename>pnmixer.desktop</Filename>
+			<Filename>rmedigicontrol.desktop</Filename>
+			<Filename>qamix.desktop</Filename>
+			<Filename>qasconfig.desktop</Filename>
+			<Filename>qashctl.desktop</Filename>
+			<Filename>qasmixer.desktop</Filename>
+			<Filename>xfce4-mixer.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Mixers -->
+
+	<!-- Players -->
+	<Menu>
+		<Name>Players</Name>
+		<Directory>sparky-xfce-audio-players.directory</Directory>
+		<Include>
+			<Filename>alsaplayer.desktop</Filename>
+			<Filename>amarok.desktop</Filename>
+			<Filename>org.kde.amarok.desktop</Filename>
+			<Filename>ario.desktop</Filename>
+			<Filename>audacious.desktop</Filename>
+			<Filename>audacious2.desktop</Filename>
+			<Filename>banshee.desktop</Filename>
+			<Filename>betaradio.desktop</Filename>
+			<Filename>cantata.desktop</Filename>
+			<Filename>clementine.desktop</Filename>
+			<Filename>daisy-player.desktop</Filename>
+			<Filename>deadbeef.desktop</Filename>
+			<Filename>deepin-music.desktop</Filename>
+			<Filename>djplay.desktop</Filename>
+			<Filename>enjoy.desktop</Filename>
+			<Filename>esperanza.desktop</Filename>
+			<Filename>exaile.desktop</Filename>
+			<Filename>gmusicbrowser.desktop</Filename>
+			<Filename>gnome-music.desktop</Filename>
+			<Filename>org.gnome.Music.desktop</Filename>
+			<Filename>gogglesmm.desktop</Filename>
+			<Filename>org.gnome.Goobox.desktop</Filename>
+			<Filename>gradio.desktop</Filename>
+			<Filename>jajuk.desktop</Filename>
+			<Filename>juk.desktop</Filename>
+			<Filename>org.kde.juk.desktop</Filename>
+			<Filename>kscd.desktop</Filename>
+			<Filename>lxmusic.desktop</Filename>
+			<Filename>moc.desktop</Filename>
+			<Filename>musique.desktop</Filename>
+			<Filename>nightingale.desktop</Filename>
+			<Filename>pmrp.desktop</Filename>
+			<Filename>pragha.desktop</Filename>
+			<Filename>qmmp.desktop</Filename>
+			<Filename>quodlibet.desktop</Filename>
+			<Filename>io.github.quodlibet.QuodLibet.desktop</Filename>
+			<Filename>radiotray.desktop</Filename>
+			<Filename>rhythmbox.desktop</Filename>
+			<Filename>sayonara.desktop</Filename>
+			<Filename>silverjuke.desktop</Filename>
+			<Filename>sonata.desktop</Filename>
+			<Filename>sparky-play.desktop</Filename>
+			<Filename>spotify.desktop</Filename>
+			<Filename>stretchplayer.desktop</Filename>
+			<Filename>yarock.desktop</Filename>
+		</Include>
+	 </Menu> <!-- End Players -->
+
+	<!-- Plugins -->
+	<Menu>
+		<Name>Plugins</Name>
+		<Directory>sparky-xfce-audio-plugins.directory</Directory>
+		<Include>
+			<Filename>euphoria.desktop</Filename>
+			<Filename>lms_comb.desktop</Filename>
+			<Filename>lms_delay.desktop</Filename>
+			<Filename>lms_distortion.desktop</Filename>
+			<Filename>lms_eq5.desktop</Filename>
+			<Filename>lms_filter.desktop</Filename>
+			<Filename>rayv.desktop</Filename>
+			<And>
+				<Category>Plugins</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Plugins -->
+
+	<!-- Sequencing -->
+	<Menu>
+		<Name>Sequencing</Name>
+		<Directory>sparky-xfce-audio-sequencing.directory</Directory>
+		<Include>
+			<Filename>cheesetracker.desktop</Filename>
+			<Filename>composite.desktop</Filename>
+			<Filename>freewheeling.desktop</Filename>
+			<Filename>hydrogen.desktop</Filename>
+			<Filename>kluppe.desktop</Filename>
+			<Filename>lmms.desktop</Filename>
+			<Filename>milkytracker.desktop</Filename>
+			<Filename>muse.desktop</Filename>
+			<Filename>qmidiarp.desktop</Filename>
+			<Filename>qtractor.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
+			<Filename>com.rosegardenmusic.rosegarden.desktop</Filename>
+			<Filename>seq24.desktop</Filename>
+			<Filename>sooperlooper.desktop</Filename>
+			<Filename>timidity.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Sequencing -->
+
+	<!-- SoftSynths -->
+	<Menu>
+		<Name>SoftSynths</Name>
+		<Directory>sparky-xfce-audio-softsynths.directory</Directory>
+		<Include>
+			<Filename>aeolus.desktop</Filename>
+			<Filename>ams.desktop</Filename>
+			<Filename>amsynth.desktop</Filename>
+			<Filename>Annotator.desktop</Filename>
+			<Filename>cecilia.desktop</Filename>
+			<Filename>din.desktop</Filename>
+			<Filename>drumkv1.desktop</Filename>
+			<Filename>flmsg.desktop</Filename>
+			<Filename>foo-yc20.desktop</Filename>
+			<Filename>galan.desktop</Filename>
+			<Filename>genpo.desktop</Filename>
+			<Filename>ghostess.desktop</Filename>
+			<Filename>gmorgan.desktop</Filename>
+			<Filename>gespeaker.desktop</Filename>
+			<Filename>hexter.desktop</Filename>
+			<Filename>horgand.desktop</Filename>
+			<Filename>lv2rack.desktop</Filename>
+			<Filename>monobristol.desktop</Filename>
+			<Filename>nekobee.desktop</Filename>
+			<Filename>NetworkEditor.desktop</Filename>
+			<Filename>phasex.desktop</Filename>
+			<Filename>Prototyper.desktop</Filename>
+			<Filename>puredata.desktop</Filename>
+			<Filename>qsampler.desktop</Filename>
+			<Filename>qsynth.desktop</Filename>
+			<Filename>samplv1.desktop</Filename>
+			<Filename>schism.desktop</Filename>
+			<Filename>sineshaper.desktop</Filename>
+			<Filename>specimen.desktop</Filename>
+			<Filename>spek.desktop</Filename>
+			<Filename>synthv1.desktop</Filename>
+			<Filename>yoshimi.desktop</Filename>
+			<Filename>zynaddsubfx.desktop</Filename>
+			<Filename>zynaddsubfx-alsa.desktop</Filename>
+			<Filename>zynaddsubfx-jack.desktop</Filename>
+			<Filename>zynaddsubfx-oss.desktop</Filename>
+			<Filename>zynjacku.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End SoftSynths -->
+
+	<!-- Tools -->
+	<Menu>
+		<Name>Tools</Name>
+		<Directory>sparky-xfce-audio-tools.directory</Directory>
+		<Include>
+			<Filename>AcetoneISO.desktop</Filename>
+			<Filename>ardour.desktop</Filename>
+			<Filename>audacity.desktop</Filename>
+			<Filename>bitmeter.desktop</Filename>
+			<Filename>buzztrax-edit.desktop</Filename>
+			<Filename>buzztrax-songio-buzz.desktop</Filename>
+			<Filename>canorus.desktop</Filename>
+			<Filename>ccutter.desktop</Filename>
+			<Filename>darksnow.desktop</Filename>
+			<Filename>denemo.desktop</Filename>
+			<Filename>dgedit.desktop</Filename>
+			<Filename>easytag.desktop</Filename>
+			<Filename>easymp3gain-gnome.desktop</Filename>
+			<Filename>easymp3gain-kde.desktop</Filename>
+			<Filename>exfalso.desktop</Filename>
+			<Filename>extace.desktop</Filename>
+			<Filename>fontforge.desktop</Filename>
+			<Filename>freecycle.desktop</Filename>
+			<Filename>freedv.desktop</Filename>
+			<Filename>kde4-frescobaldi.desktop</Filename>
+			<Filename>frescobaldi.desktop</Filename>
+			<Filename>gcdmaster.desktop</Filename>
+			<Filename>gladish.desktop</Filename>
+			<Filename>gmerlin-recorder.desktop</Filename>
+			<Filename>gnome-sound-recorder.desktop</Filename>
+			<Filename>org.gnome.SoundRecorder.desktop</Filename>
+			<Filename>gnusound.desktop</Filename>
+			<Filename>goobox.desktop</Filename>
+			<Filename>org.gnome.Goobox.desktop</Filename>
+			<Filename>grig.desktop</Filename>
+			<Filename>gtkpod.desktop</Filename>
+			<Filename>gwc.desktop</Filename>
+			<Filename>gtk-wave-cleaner.desktop</Filename>
+			<Filename>idjc.desktop</Filename>
+			<Filename>jaaa.desktop</Filename>
+			<Filename>jaaa-alsa.desktop</Filename>
+			<Filename>jaaa-jack.desktop</Filename>
+			<Filename>japa.desktop</Filename>
+			<Filename>japa-alsa.desktop</Filename>
+			<Filename>japa-jack.desktop</Filename>
+			<Filename>japaj.desktop</Filename>
+			<Filename>jackeq.desktop</Filename>
+			<Filename>jkmeter.desktop</Filename>
+			<Filename>jmeter.desktop</Filename>
+			<Filename>jmeters.desktop</Filename>
+			<Filename>jnoisemeter.desktop</Filename>
+			<Filename>kguitar.desktop</Filename>
+			<Filename>kwave.desktop</Filename>
+			<Filename>org.kde.kwave.desktop</Filename>
+			<Filename>ladi-player.desktop</Filename>
+			<Filename>laditray.desktop</Filename>
+       			<Filename>ladi-system-tray.desktop</Filename>
+			<Filename>meterbridge.desktop</Filename>
+			<Filename>mhwaveedit.desktop</Filename>
+			<Filename>mixxx.desktop</Filename>
+			<Filename>mp3splt-gtk.desktop</Filename>
+			<Filename>mscore.desktop</Filename>
+			<Filename>noteedit.desktop</Filename>
+			<Filename>nted.desktop</Filename>
+			<Filename>paulstretch.desktop</Filename>
+			<Filename>qjackrcd.desktop</Filename>
+			<Filename>rezound.desktop</Filename>
+			<Filename>ripperx.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
+			<Filename>com.rosegardenmusic.rosegarden.desktop</Filename>
+			<Filename>snd.desktop</Filename>
+			<Filename>snd-gtk-jack.desktop</Filename>
+			<Filename>snd-gtk-pulse.desktop</Filename>
+			<Filename>songwrite.desktop</Filename>
+			<Filename>sonic.desktop</Filename>
+			<Filename>soundconverter.desktop</Filename>
+			<Filename>sound-juicer.desktop</Filename>
+			<Filename>org.gnome.SoundJuicer.desktop</Filename>
+			<Filename>soundkonverter.desktop</Filename>
+			<Filename>org.kde.soundkonverter.desktop</Filename>
+			<Filename>sweep.desktop</Filename>
+			<Filename>tagtool.desktop</Filename>
+			<Filename>tetraproc.desktop</Filename>
+			<Filename>timemachine.desktop</Filename>
+			<Filename>tuxguitar.desktop</Filename>
+			<Filename>wavbreaker.desktop</Filename>
+			<Filename>wavesurfer.desktop</Filename>			
+		</Include>
+	</Menu>	 <!-- End Tools -->
+
+	<!-- Tuners -->
+	<Menu>
+		<Name>Tuners</Name>
+		<Directory>sparky-xfce-audio-tuners.directory</Directory>
+		<Include>
+			<Filename>lingot.desktop</Filename>
+			<Filename>org.nongnu.lingot.desktop</Filename>
+			<Filename>fmit.desktop</Filename>
+			<Filename>gxtuner.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Tuners -->
+
+	<!-- VST -->
+	<Menu>
+		<Name>VST</Name>
+		<Directory>sparky-xfce-vst.directory</Directory>
+		<Include>
+			<And>
+				<Category>VST</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End VST -->
+    </Menu>	 <!-- End Audio -->
+
+
+    <Menu>
+        <Name>Network</Name>
+        <Directory>xfce-network.directory</Directory>
+        <Include>
+            <Category>Network</Category>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>exo-mail-reader.desktop</Filename>
+                <Filename>exo-web-browser.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+
+    <Menu>
+        <Name>Office</Name>
+        <Directory>xfce-office.directory</Directory>
+        <Include>
+            <Category>Office</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
+        <Name>System</Name>
+        <Directory>xfce-system.directory</Directory>
+        <Include>
+            <Or>
+                <Category>Emulator</Category>
+                <Category>System</Category>
+            </Or>
+        </Include>
+        <Exclude>
+            <Or>
+                <Filename>xfce4-session-logout.desktop</Filename>
+            </Or>
+        </Exclude>
+    </Menu>
+
+   <!-- Video -->
+        <Menu>
+	<Name>Video</Name>
+	<Directory>sparky-xfce-video.directory</Directory>
+
+	<!-- Cameras-->
+	<Menu>
+		<Name>Cameras</Name>
+		<Directory>sparky-xfce-cameras.directory</Directory>
+		<Include>
+			<Filename>camorama.desktop</Filename>
+                  	<Filename>cheese.desktop</Filename>
+			<Filename>org.gnome.Cheese.desktop</Filename>
+			<Filename>gtkam.desktop</Filename>
+			<Filename>qcamera.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Cameras -->
+
+	<!-- Video Players -->
+	<Menu>
+		<Name>Players</Name>
+		<Directory>sparky-xfce-video-players.directory</Directory>
+		<Include>
+			<Filename>org.kde.dragonplayer.desktop</Filename>
+			<Filename>freevo.desktop</Filename>
+			<Filename>gmerlin-player.desktop</Filename>
+			<Filename>gnome-mplayer.desktop</Filename>
+			<Filename>gnome-mpv.desktop</Filename>
+			<Filename>io.github.GnomeMpv.desktop</Filename>
+			<Filename>gxine.desktop</Filename>
+			<Filename>kaffeine.desktop</Filename>
+			<Filename>org.kde.kaffeine.desktop</Filename>
+			<Filename>kmplayer.desktop</Filename>
+			<Filename>kodi.desktop</Filename>
+			<Filename>me-tv.desktop</Filename>
+			<Filename>minitube.desktop</Filename>
+			<Filename>miro.desktop</Filename>
+			<Filename>motionbox.desktop</Filename>
+			<Filename>mplayer.desktop</Filename>
+			<Filename>mpv.desktop</Filename>
+			<Filename>parole.desktop</Filename>
+			<Filename>org.xfce.Parole.desktop</Filename>
+			<Filename>Player.desktop</Filename>
+			<Filename>QMLPlayer.desktop</Filename>
+			<Filename>qmplay2.desktop</Filename>
+			<Filename>QMPlay2.desktop</Filename>
+			<Filename>rage.desktop</Filename>
+			<Filename>smplayer.desktop</Filename>
+			<Filename>smplayer2.desktop</Filename>
+			<Filename>smtube.desktop</Filename>
+			<Filename>sparky-tube.desktop</Filename>
+			<Filename>totem.desktop</Filename>
+			<Filename>org.gnome.Totem.desktop</Filename>
+			<Filename>tunapie.desktop</Filename>
+			<Filename>net-tvtime.desktop</Filename>
+			<Filename>tvtime.desktop</Filename>
+                  	<Filename>vlc.desktop</Filename>
+			<Filename>xine.desktop</Filename>
+			<Filename>xjadeo.desktop</Filename>
+			<Filename>zapping.desktop</Filename>
+		</Include>
+        </Menu>	 <!-- End Video Players -->
+
+	<!-- Recorders-->
+	<Menu>
+		<Name>Recording CD/DVD</Name>
+		<Directory>sparky-xfce-recorders.directory</Directory>
+		<Include>
+			<Filename>brasero.desktop</Filename>
+			<Filename>k3b.desktop</Filename>
+			<Filename>org.kde.k3b.desktop</Filename>
+			<Filename>simpleburn.desktop</Filename>
+			<Filename>xfburn.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Recorders -->
+
+	<!-- Video Tools -->
+	<Menu>
+		<Name>Tools</Name>
+		<Directory>sparky-xfce-video-tools.directory</Directory>
+		<Include>
+			<Filename>acidrip.desktop</Filename>
+			<Filename>avidemux-qt.desktop</Filename>
+			<Filename>avidemux_jobs.desktop</Filename>
+			<Filename>org.avidemux.Avidemux.desktop</Filename>
+			<Filename>blender.desktop</Filename>
+                  	<Filename>blender-fullscreen.desktop</Filename>
+                 	<Filename>blender-windowed.desktop</Filename>
+                  	<Filename>bombono-dvd.desktop</Filename>
+                  	<Filename>cinelerra.desktop</Filename>
+                 	<Filename>devede_ng.desktop</Filename>
+			<Filename>devede_ng.py.desktop</Filename>
+			<Filename>devedeng.desktop</Filename>
+			<Filename>dvd95.desktop</Filename>
+			<Filename>dvdisaster.desktop</Filename>
+			<Filename>dvgrab.desktop</Filename>
+			<Filename>dvdrip.desktop</Filename>
+			<Filename>dvdstyler.desktop</Filename>
+                 	<Filename>ekd.desktop</Filename>
+			<Filename>flowblade.desktop</Filename>
+			<Filename>io.github.jliljebl.Flowblade.desktop</Filename>
+                 	<Filename>gtk-recordmydesktop.desktop</Filename>
+                  	<Filename>ghb.desktop</Filename>
+                  	<Filename>guvcview.desktop</Filename>
+			<Filename>imagination.desktop</Filename>
+			<Filename>instanbul.desktop</Filename>
+                  	<Filename>Kino.desktop</Filename>
+                  	<Filename>kdenlive.desktop</Filename>
+			<Filename>org.kde.kdenlive.desktop</Filename>
+                  	<Filename>LiVES.desktop</Filename>
+			<Filename>luvcview.desktop</Filename>
+			<Filename>ogmrip.desktop</Filename>
+                  	<Filename>openshot.desktop</Filename>
+			<Filename>openshot-qt.desktop</Filename>
+                  	<Filename>pitivi.desktop</Filename>
+			<Filename>org.pitivi.Pitivi.desktop</Filename>
+			<Filename>qstopmotion.desktop</Filename>
+			<Filename>screencapjack.desktop</Filename>
+			<Filename>simplescreenrecorder.desktop</Filename>
+			<Filename>stopmotion.desktop</Filename>
+			<Filename>transmageddon.desktop</Filename>
+			<Filename>videocut.desktop</Filename>
+			<Filename>vokoscreen.desktop</Filename>
+                  	<Filename>winff.desktop</Filename>
+                  	<Filename>xjadeo.desktop</Filename>
+                  	<Filename>xvidcap.desktop</Filename>
+		  	<And>
+				<Category>VideoEditing</Category>
+			</And>
+		</Include>
+	</Menu>	 <!-- End Video Tools -->
+
+	<!-- Subtitle tools-->
+	<Menu>
+		<Name>Subtitle</Name>
+		<Directory>sparky-xfce-subtitle-tools.directory</Directory>
+		<Include>
+			<Filename>aegisub.desktop</Filename>
+			<Filename>gaupol.desktop</Filename>
+			<Filename>qnapi.desktop</Filename>
+			<Filename>gnome-subtitles.desktop</Filename>
+			<Filename>org.gnome.GnomeSubtitles.desktop</Filename>
+			<Filename>org.kitkone.subtitleeditor.desktop</Filename>
+			<Filename>subdownloader.desktop</Filename>
+			<Filename>subtitlecomposer.desktop</Filename>
+			<Filename>subtitleeditor.desktop</Filename>
+			<Filename>org.kitone.subtitleeditor.desktop</Filename>
+		</Include>
+	</Menu>  <!-- End Subtitle tools -->
+    </Menu>  <!-- End Video -->
+
+    <Menu>
+        <Name>Other</Name>
+        <Directory>xfce-other.directory</Directory>
+        <OnlyUnallocated/>
+        <Include>
+            <All/>
+        </Include>
+    </Menu>
+
+</Menu>

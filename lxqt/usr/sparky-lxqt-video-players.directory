@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Players
+Name[de]=Videoplayer
+Name[es]=Reproductores de vídeo
+Name[fr]=Lecteurs vidéo
+Name[pl]=Odtwarzacze wideo
+Name[pt]=Players de vídeo
+Name[ru]=Видео проигрыватели
+Name[se]=Video spelare
+Icon=multimedia-video-player
+Type=Directory

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Players
+Name[de]=Audio-Player
+Name[es]=Reproductors de audio
+Name[fr]=Lecteurs audio
+Name[pl]=Odtwarzacze audio
+Name[pt]=Reprodução de áudio
+Name[ru]=Aудио плееры
+Name[se]=Ljudspelare
+Icon=multimedia-audio-player
+Type=Directory
