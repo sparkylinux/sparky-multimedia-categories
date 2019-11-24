@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2019/07/20 by pavroo -->
+<!-- Last update 2019/11/24 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -639,6 +639,7 @@
 			<Filename>stopmotion.desktop</Filename>
 			<Filename>transmageddon.desktop</Filename>
 			<Filename>videocut.desktop</Filename>
+			<Filename>videomass.desktop</Filename>
 			<Filename>vokoscreen.desktop</Filename>
                   	<Filename>winff.desktop</Filename>
                   	<Filename>xjadeo.desktop</Filename>
