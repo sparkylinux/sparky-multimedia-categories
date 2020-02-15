@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2019/11/24 by pavroo -->
+<!-- Last update 2020/02/15 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -273,6 +273,8 @@
 			<Filename>sonata.desktop</Filename>
 			<Filename>sparky-play.desktop</Filename>
 			<Filename>spotify.desktop</Filename>
+			<Filename>org.strawberrymusicplayer.strawberry.desktop</Filename>
+			<Filename>strawberry.desktop</Filename>
 			<Filename>stretchplayer.desktop</Filename>
 			<Filename>yarock.desktop</Filename>
 		</Include>
@@ -540,7 +542,9 @@
 		<Name>Players</Name>
 		<Directory>sparky-xfce-video-players.directory</Directory>
 		<Include>
+			<Filename>celluloid.desktop</Filename>
 			<Filename>org.kde.dragonplayer.desktop</Filename>
+			<Filename>electronplayer.desktop</Filename>
 			<Filename>freevo.desktop</Filename>
 			<Filename>gmerlin-player.desktop</Filename>
 			<Filename>gnome-mplayer.desktop</Filename>
@@ -573,6 +577,7 @@
 			<Filename>tunapie.desktop</Filename>
 			<Filename>net-tvtime.desktop</Filename>
 			<Filename>tvtime.desktop</Filename>
+			<Filename>stremio.desktop</Filename>
                   	<Filename>vlc.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>xjadeo.desktop</Filename>
@@ -628,6 +633,7 @@
 			<Filename>org.kde.kdenlive.desktop</Filename>
                   	<Filename>LiVES.desktop</Filename>
 			<Filename>luvcview.desktop</Filename>
+			<Filename>mystiq.desktop</Filename>
 			<Filename>ogmrip.desktop</Filename>
                   	<Filename>openshot.desktop</Filename>
 			<Filename>openshot-qt.desktop</Filename>
@@ -641,6 +647,7 @@
 			<Filename>videocut.desktop</Filename>
 			<Filename>videomass.desktop</Filename>
 			<Filename>vokoscreen.desktop</Filename>
+			<Filename>vokoscreenNG.desktop</Filename>
                   	<Filename>winff.desktop</Filename>
                   	<Filename>xjadeo.desktop</Filename>
                   	<Filename>xvidcap.desktop</Filename>
