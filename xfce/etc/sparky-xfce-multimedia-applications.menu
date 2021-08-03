@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2020/02/15 by pavroo -->
+<!-- Last update 2021/08/03 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -240,35 +240,47 @@
 			<Filename>betaradio.desktop</Filename>
 			<Filename>cantata.desktop</Filename>
 			<Filename>clementine.desktop</Filename>
+			<Filename>com.github.geigi.cozy.desktop</Filename>
 			<Filename>daisy-player.desktop</Filename>
 			<Filename>deadbeef.desktop</Filename>
 			<Filename>deepin-music.desktop</Filename>
 			<Filename>djplay.desktop</Filename>
+			<Filename>org.kde.elisa.desktop</Filename>
 			<Filename>enjoy.desktop</Filename>
 			<Filename>esperanza.desktop</Filename>
 			<Filename>exaile.desktop</Filename>
+			<Filename>foobnix.desktop</Filename>
+			<Filename>gmerlin-player.desktop</Filename>
 			<Filename>gmusicbrowser.desktop</Filename>
 			<Filename>gnome-music.desktop</Filename>
 			<Filename>org.gnome.Music.desktop</Filename>
 			<Filename>gogglesmm.desktop</Filename>
 			<Filename>org.gnome.Goobox.desktop</Filename>
 			<Filename>gradio.desktop</Filename>
+			<Filename>gxmms2.desktop</Filename>
 			<Filename>jajuk.desktop</Filename>
+			<Filename>jampal.desktop</Filename>
 			<Filename>juk.desktop</Filename>
 			<Filename>org.kde.juk.desktop</Filename>
 			<Filename>kscd.desktop</Filename>
 			<Filename>lxmusic.desktop</Filename>
+			<Filename>mellowplayer.desktop</Filename>
 			<Filename>moc.desktop</Filename>
 			<Filename>musique.desktop</Filename>
 			<Filename>nightingale.desktop</Filename>
+			<Filename>nuclear.desktop</Filename>
 			<Filename>pmrp.desktop</Filename>
+			<Filename>pogo.desktop</Filename>
 			<Filename>pragha.desktop</Filename>
 			<Filename>qmmp.desktop</Filename>
 			<Filename>quodlibet.desktop</Filename>
 			<Filename>io.github.quodlibet.QuodLibet.desktop</Filename>
+			<Filename>radiostation.desktop</Filename>
 			<Filename>radiotray.desktop</Filename>
 			<Filename>rhythmbox.desktop</Filename>
 			<Filename>sayonara.desktop</Filename>
+			<Filename>shortwave.desktop</Filename>
+			<Filename>de.haeckerfelix.Shortwave.desktop</Filename>
 			<Filename>silverjuke.desktop</Filename>
 			<Filename>sonata.desktop</Filename>
 			<Filename>sparky-play.desktop</Filename>
@@ -379,6 +391,7 @@
 			<Filename>buzztrax-songio-buzz.desktop</Filename>
 			<Filename>canorus.desktop</Filename>
 			<Filename>ccutter.desktop</Filename>
+			<Filename>chirp.desktop</Filename>
 			<Filename>darksnow.desktop</Filename>
 			<Filename>denemo.desktop</Filename>
 			<Filename>dgedit.desktop</Filename>
@@ -533,7 +546,10 @@
                   	<Filename>cheese.desktop</Filename>
 			<Filename>org.gnome.Cheese.desktop</Filename>
 			<Filename>gtkam.desktop</Filename>
+			<Filename>kamera.desktop</Filename>
+			<Filename>org.kde.kamoso.desktop</Filename>
 			<Filename>qcamera.desktop</Filename>
+			<Filename>webcamoid.desktop</Filename>
 		</Include>
 	</Menu>  <!-- End Cameras -->
 
@@ -542,13 +558,19 @@
 		<Name>Players</Name>
 		<Directory>sparky-xfce-video-players.directory</Directory>
 		<Include>
+			<Filename>bino.desktop</Filename>
 			<Filename>celluloid.desktop</Filename>
+			<Filename>clapper.desktop</Filename>
+			<Filename>com.github.rafostar.Clapper.desktop</Filename>
 			<Filename>org.kde.dragonplayer.desktop</Filename>
 			<Filename>electronplayer.desktop</Filename>
+			<Filename>freetube.desktop</Filename>
+			<Filename>freetuxtv.desktop</Filename>
 			<Filename>freevo.desktop</Filename>
 			<Filename>gmerlin-player.desktop</Filename>
 			<Filename>gnome-mplayer.desktop</Filename>
 			<Filename>gnome-mpv.desktop</Filename>
+			<Filename>invidious.desktop</Filename>
 			<Filename>io.github.GnomeMpv.desktop</Filename>
 			<Filename>gxine.desktop</Filename>
 			<Filename>kaffeine.desktop</Filename>
@@ -564,6 +586,8 @@
 			<Filename>parole.desktop</Filename>
 			<Filename>org.xfce.Parole.desktop</Filename>
 			<Filename>Player.desktop</Filename>
+			<Filename>popcorn-time.desktop</Filename>
+			<Filename>qarte.desktop</Filename>
 			<Filename>QMLPlayer.desktop</Filename>
 			<Filename>qmplay2.desktop</Filename>
 			<Filename>QMPlay2.desktop</Filename>
@@ -572,15 +596,16 @@
 			<Filename>smplayer2.desktop</Filename>
 			<Filename>smtube.desktop</Filename>
 			<Filename>sparky-tube.desktop</Filename>
+			<Filename>stremio.desktop</Filename>
 			<Filename>totem.desktop</Filename>
 			<Filename>org.gnome.Totem.desktop</Filename>
 			<Filename>tunapie.desktop</Filename>
 			<Filename>net-tvtime.desktop</Filename>
 			<Filename>tvtime.desktop</Filename>
-			<Filename>stremio.desktop</Filename>
                   	<Filename>vlc.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>xjadeo.desktop</Filename>
+			<Filename>ytdl-gui.desktop</Filename>
 			<Filename>zapping.desktop</Filename>
 		</Include>
         </Menu>	 <!-- End Video Players -->
@@ -593,6 +618,8 @@
 			<Filename>brasero.desktop</Filename>
 			<Filename>k3b.desktop</Filename>
 			<Filename>org.kde.k3b.desktop</Filename>
+			<Filename>burner.desktop</Filename>
+			<Filename>kylin-burner.desktop</Filename>
 			<Filename>simpleburn.desktop</Filename>
 			<Filename>xfburn.desktop</Filename>
 		</Include>
@@ -611,7 +638,9 @@
                   	<Filename>blender-fullscreen.desktop</Filename>
                  	<Filename>blender-windowed.desktop</Filename>
                   	<Filename>bombono-dvd.desktop</Filename>
+                  	<Filename>com.github.robertsanseries.ciano.desktop</Filename>
                   	<Filename>cinelerra.desktop</Filename>
+                  	<Filename>clipgrab.desktop</Filename>
                  	<Filename>devede_ng.desktop</Filename>
 			<Filename>devede_ng.py.desktop</Filename>
 			<Filename>devedeng.desktop</Filename>
@@ -626,11 +655,14 @@
                  	<Filename>gtk-recordmydesktop.desktop</Filename>
                   	<Filename>ghb.desktop</Filename>
                   	<Filename>guvcview.desktop</Filename>
+                  	<Filename>handbrake.desktop</Filename>
+                  	<Filename>fr.handbrake.ghb.desktop</Filename>
 			<Filename>imagination.desktop</Filename>
 			<Filename>instanbul.desktop</Filename>
                   	<Filename>Kino.desktop</Filename>
                   	<Filename>kdenlive.desktop</Filename>
 			<Filename>org.kde.kdenlive.desktop</Filename>
+			<Filename>lightworks.desktop</Filename>
                   	<Filename>LiVES.desktop</Filename>
 			<Filename>luvcview.desktop</Filename>
 			<Filename>mystiq.desktop</Filename>
@@ -651,6 +683,7 @@
                   	<Filename>winff.desktop</Filename>
                   	<Filename>xjadeo.desktop</Filename>
                   	<Filename>xvidcap.desktop</Filename>
+                  	<Filename>youtube-dlg.desktop</Filename>
 		  	<And>
 				<Category>VideoEditing</Category>
 			</And>
@@ -669,6 +702,7 @@
 			<Filename>org.gnome.GnomeSubtitles.desktop</Filename>
 			<Filename>org.kitkone.subtitleeditor.desktop</Filename>
 			<Filename>subdownloader.desktop</Filename>
+			<Filename>subtitld.desktop</Filename>
 			<Filename>subtitlecomposer.desktop</Filename>
 			<Filename>subtitleeditor.desktop</Filename>
 			<Filename>org.kitone.subtitleeditor.desktop</Filename>

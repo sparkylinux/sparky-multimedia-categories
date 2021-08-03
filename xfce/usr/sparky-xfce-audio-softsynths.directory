@@ -8,5 +8,5 @@ Name[pl]=Syntezator
 Name[pt]=Sintetizadores
 Name[ru]=Программные синтезаторы
 Name[se]=Softsynthar
-Icon=audio-editor
+Icon=audio-equalizer
 Type=Directory

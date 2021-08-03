@@ -8,5 +8,5 @@ Name[pl]=Miksery
 Name[pt]=Misturadores
 Name[ru]=Микшеры
 Name[se]=Mixare
-Icon=applications-audio
+Icon=gnome-music
 Type=Directory
