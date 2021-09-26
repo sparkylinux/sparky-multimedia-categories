@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2021/08/03 by pavroo -->
+<!-- Last update 2021/09/25 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -454,6 +454,7 @@
 			<Filename>snd-gtk-pulse.desktop</Filename>
 			<Filename>songwrite.desktop</Filename>
 			<Filename>sonic.desktop</Filename>
+			<Filename>sonobus.desktop</Filename>
 			<Filename>soundconverter.desktop</Filename>
 			<Filename>sound-juicer.desktop</Filename>
 			<Filename>org.gnome.SoundJuicer.desktop</Filename>
@@ -640,6 +641,7 @@
                   	<Filename>bombono-dvd.desktop</Filename>
                   	<Filename>com.github.robertsanseries.ciano.desktop</Filename>
                   	<Filename>cinelerra.desktop</Filename>
+                  	<Filename>cin.desktop</Filename>
                   	<Filename>clipgrab.desktop</Filename>
                  	<Filename>devede_ng.desktop</Filename>
 			<Filename>devede_ng.py.desktop</Filename>
