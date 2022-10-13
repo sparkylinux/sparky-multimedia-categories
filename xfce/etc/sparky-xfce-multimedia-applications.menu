@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2022/07/10 by pavroo -->
+<!-- Last update 2022/10/13 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -672,6 +672,7 @@
 			<Filename>ogmrip.desktop</Filename>
                   	<Filename>openshot.desktop</Filename>
 			<Filename>openshot-qt.desktop</Filename>
+			<Filename>org.openshot.OpenShot.desktop</Filename>
                   	<Filename>pitivi.desktop</Filename>
 			<Filename>org.pitivi.Pitivi.desktop</Filename>
 			<Filename>qstopmotion.desktop</Filename>
