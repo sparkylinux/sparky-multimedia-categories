@@ -1,6 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-<!-- Last update 2022/10/13 by pavroo -->
+<!-- Last update 2022/12/20 by pavroo -->
 <Menu>
     <Name>Xfce</Name>
 
@@ -201,6 +201,7 @@
 			<Filename>echomixer.desktop</Filename>
 			<Filename>emixer.desktop</Filename>
 			<Filename>envy24_control.desktop</Filename>
+			<Filename>envy24control.desktop</Filename>
 			<Filename>ffado.org-ffadomixer.desktop</Filename>
 			<Filename>gmerlin-alsamixer.desktop</Filename>
 			<Filename>gnome-alsamixer.desktop</Filename>
@@ -233,6 +234,8 @@
 			<Filename>alsaplayer.desktop</Filename>
 			<Filename>amarok.desktop</Filename>
 			<Filename>org.kde.amarok.desktop</Filename>
+			<Filename>io.bassi.Amberol.desktop</Filename>
+			<Filename>amberol.desktop</Filename>
 			<Filename>ario.desktop</Filename>
 			<Filename>audacious.desktop</Filename>
 			<Filename>audacious2.desktop</Filename>
@@ -250,14 +253,18 @@
 			<Filename>esperanza.desktop</Filename>
 			<Filename>exaile.desktop</Filename>
 			<Filename>foobnix.desktop</Filename>
+			<Filename>com.github.neithern.g4music.desktop</Filename>
+			<Filename>g4music.desktop</Filename>
 			<Filename>gmerlin-player.desktop</Filename>
 			<Filename>gmusicbrowser.desktop</Filename>
 			<Filename>gnome-music.desktop</Filename>
 			<Filename>org.gnome.Music.desktop</Filename>
 			<Filename>gogglesmm.desktop</Filename>
 			<Filename>org.gnome.Goobox.desktop</Filename>
+			<Filename>gpac.desktop</Filename>
 			<Filename>gradio.desktop</Filename>
 			<Filename>gxmms2.desktop</Filename>
+			<Filename>harmonoid.desktop</Filename>
 			<Filename>jajuk.desktop</Filename>
 			<Filename>jampal.desktop</Filename>
 			<Filename>juk.desktop</Filename>
@@ -319,12 +326,14 @@
 			<Filename>composite.desktop</Filename>
 			<Filename>freewheeling.desktop</Filename>
 			<Filename>hydrogen.desktop</Filename>
+			<Filename>org.hydrogenmusic.Hydrogen.desktop</Filename>
 			<Filename>kluppe.desktop</Filename>
 			<Filename>lmms.desktop</Filename>
 			<Filename>milkytracker.desktop</Filename>
 			<Filename>muse.desktop</Filename>
 			<Filename>qmidiarp.desktop</Filename>
 			<Filename>qtractor.desktop</Filename>
+			<Filename>org.rncbc.qtractor.desktop</Filename>
 			<Filename>rosegarden.desktop</Filename>
 			<Filename>com.rosegardenmusic.rosegarden.desktop</Filename>
 			<Filename>seq24.desktop</Filename>
@@ -363,7 +372,9 @@
 			<Filename>puredata.desktop</Filename>
 			<Filename>qsampler.desktop</Filename>
 			<Filename>qsynth.desktop</Filename>
+			<Filename>org.rncbc.qsynth.desktop</Filename>
 			<Filename>samplv1.desktop</Filename>
+			<Filename>org.rncbc.samplv1.desktop</Filename>
 			<Filename>schism.desktop</Filename>
 			<Filename>sineshaper.desktop</Filename>
 			<Filename>specimen.desktop</Filename>
@@ -371,6 +382,7 @@
 			<Filename>synthv1.desktop</Filename>
 			<Filename>yoshimi.desktop</Filename>
 			<Filename>zynaddsubfx.desktop</Filename>
+			<Filename>zynaddsubfx-jack-multi.desktop</Filename>
 			<Filename>zynaddsubfx-alsa.desktop</Filename>
 			<Filename>zynaddsubfx-jack.desktop</Filename>
 			<Filename>zynaddsubfx-oss.desktop</Filename>
@@ -439,17 +451,20 @@
 			<Filename>meterbridge.desktop</Filename>
 			<Filename>mhwaveedit.desktop</Filename>
 			<Filename>mixxx.desktop</Filename>
+			<Filename>org.mixxx.Mixxx.desktop</Filename>
 			<Filename>mp3splt-gtk.desktop</Filename>
 			<Filename>mscore.desktop</Filename>
 			<Filename>noteedit.desktop</Filename>
 			<Filename>nted.desktop</Filename>
 			<Filename>paulstretch.desktop</Filename>
 			<Filename>qjackrcd.desktop</Filename>
+			<Filename>org.rncbc.qjackctl.desktop</Filename>
 			<Filename>rezound.desktop</Filename>
 			<Filename>ripperx.desktop</Filename>
 			<Filename>rosegarden.desktop</Filename>
 			<Filename>com.rosegardenmusic.rosegarden.desktop</Filename>
 			<Filename>snd.desktop</Filename>
+			<Filename>snd-gui-jack.desktop</Filename>
 			<Filename>snd-gtk-jack.desktop</Filename>
 			<Filename>snd-gtk-pulse.desktop</Filename>
 			<Filename>songwrite.desktop</Filename>
@@ -574,6 +589,7 @@
 			<Filename>hypnotix.desktop</Filename>
 			<Filename>invidious.desktop</Filename>
 			<Filename>io.github.GnomeMpv.desktop</Filename>
+			<Filename>gpac.desktop</Filename>
 			<Filename>gxine.desktop</Filename>
 			<Filename>kaffeine.desktop</Filename>
 			<Filename>org.kde.kaffeine.desktop</Filename>
